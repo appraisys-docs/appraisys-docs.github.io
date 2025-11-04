@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# Algolia-Crawler-Verif: D77529DC22FD7858
+
+Sitemap: https://appraisys-docs.github.io/sitemap.xml
