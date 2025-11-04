@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkappraisys_technical_documentation=globalThis.webpackChunkappraisys_technical_documentation||[]).push([[967],{3348:(a,c,e)=>{e.d(c,{createPacketServices:()=>i.$});var i=e(2012);e(9932)}}]);
