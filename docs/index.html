@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.9.2">
 <title data-rh="true">OOXML &amp; Syncfusion SFDT Documentation | AppraiSys Docs</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://keystone.app.valuationpro.ai/images/logo-no-name.png"><meta data-rh="true" name="twitter:image" content="https://keystone.app.valuationpro.ai/images/logo-no-name.png"><meta data-rh="true" property="og:url" content="https://appraisys-docs.github.io/docs/"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="OOXML &amp; Syncfusion SFDT Documentation | AppraiSys Docs"><meta data-rh="true" name="description" content="Comprehensive guide for understanding and working with Office Open XML (OOXML) and Syncfusion Document Format (SFDT) in the AppraiSys real estate appraisal system."><meta data-rh="true" property="og:description" content="Comprehensive guide for understanding and working with Office Open XML (OOXML) and Syncfusion Document Format (SFDT) in the AppraiSys real estate appraisal system."><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://appraisys-docs.github.io/docs/"><link data-rh="true" rel="alternate" href="https://appraisys-docs.github.io/docs/" hreflang="en"><link data-rh="true" rel="alternate" href="https://appraisys-docs.github.io/docs/" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"OOXML & Syncfusion SFDT Documentation","item":"https://appraisys-docs.github.io/docs/"}]}</script><link rel="stylesheet" href="/assets/css/styles.4a6a7868.css">
-<script src="/assets/js/runtime~main.e2d4c6fb.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.ac0fddec.js" defer="defer"></script>
 <script src="/assets/js/main.92dc4967.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -15,7 +15,7 @@
 <p><strong>Comprehensive guide for understanding and working with Office Open XML (OOXML) and Syncfusion Document Format (SFDT) in the AppraiSys real estate appraisal system.</strong></p>
 <hr>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-documentation-overview">📚 Documentation Overview<a href="#-documentation-overview" class="hash-link" aria-label="Direct link to 📚 Documentation Overview" title="Direct link to 📚 Documentation Overview" translate="no">​</a></h2>
-<p>This documentation provides everything you need to know about generating, manipulating, and debugging DOCX documents using OOXML and Syncfusion SFDT formats. Whether you&#x27;re a QA tester, backend developer, or senior engineer, this guide will help you avoid common pitfalls and master document generation.</p>
+<p>This documentation provides everything you need to know about generating, manipulating, and debugging DOCX documents using OOXML and Syncfusion SFDT formats. Whether you&#x27;re a QA tester or developer, this guide will help you avoid common pitfalls and master document generation.</p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-youll-learn">What You&#x27;ll Learn<a href="#what-youll-learn" class="hash-link" aria-label="Direct link to What You&#x27;ll Learn" title="Direct link to What You&#x27;ll Learn" translate="no">​</a></h3>
 <ul>
 <li class=""><strong>OOXML Fundamentals</strong>: How DOCX files work under the hood</li>
@@ -41,104 +41,144 @@
 <li class="">Create effective test checklists</li>
 <li class="">Perform round-trip validation</li>
 </ul>
-<p><strong>Start Here</strong>: <a class="" href="/docs/01-fundamentals/document-structure-basics.md">01-document-structure-basics.md</a></p>
+<p><strong>Start Here</strong>: <a class="" href="/docs/Fundamentals/document-structure-basics">document-structure-basics.md</a></p>
 <hr>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-for-backend-developers">💻 <strong>For Backend Developers</strong><a href="#-for-backend-developers" class="hash-link" aria-label="Direct link to -for-backend-developers" title="Direct link to -for-backend-developers" translate="no">​</a></h3>
-<p><strong>Goal</strong>: Write correct OOXML generation code and understand Syncfusion patterns</p>
-<p><strong>Estimated Time</strong>: 3-4 weeks</p>
-<table><thead><tr><th>Week</th><th>Topics</th><th>Files</th></tr></thead><tbody><tr><td>1</td><td>Fundamentals + WordprocessingML</td><td>All Fundamentals 1-7</td></tr><tr><td>2</td><td>Tables, SDT, styles, SFDT</td><td>All Intermediate 1-7</td></tr><tr><td>3</td><td>Advanced internals, element mapping, appraisal patterns</td><td>Advanced 1-3, 7</td></tr><tr><td>4</td><td>Code examples and practice</td><td>All Code Examples, Reference</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-for-developers-all-levels">💻 <strong>For Developers</strong> (All Levels)<a href="#-for-developers-all-levels" class="hash-link" aria-label="Direct link to -for-developers-all-levels" title="Direct link to -for-developers-all-levels" translate="no">​</a></h3>
+<p><strong>Goal</strong>: Master the complete document generation system from fundamentals through advanced architecture</p>
+<p><strong>Estimated Time</strong>: 4-5 weeks for comprehensive mastery</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="phase-1-foundations-week-1">Phase 1: Foundations (Week 1)<a href="#phase-1-foundations-week-1" class="hash-link" aria-label="Direct link to Phase 1: Foundations (Week 1)" title="Direct link to Phase 1: Foundations (Week 1)" translate="no">​</a></h4>
+<p><strong>Topics</strong>: Core OOXML concepts and WordprocessingML
+<strong>Files</strong>: All Fundamentals 1-7</p>
+<p>Learn how DOCX files work, the relationship system, and the three fatal mistakes that corrupt documents.</p>
+<p><strong>Key Skills</strong>:</p>
+<ul>
+<li class="">Understand DOCX as ZIP structure</li>
+<li class="">Navigate relationship files</li>
+<li class="">Master WordprocessingML core elements (paragraphs, runs, text)</li>
+<li class="">Recognize and avoid fatal structural errors</li>
+</ul>
+<hr>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="phase-2-practical-development-week-2">Phase 2: Practical Development (Week 2)<a href="#phase-2-practical-development-week-2" class="hash-link" aria-label="Direct link to Phase 2: Practical Development (Week 2)" title="Direct link to Phase 2: Practical Development (Week 2)" translate="no">​</a></h4>
+<p><strong>Topics</strong>: Real-world document construction
+<strong>Files</strong>: All Intermediate 1-7</p>
+<p>Build tables, work with content controls, understand Syncfusion SFDT format, and master the patterns used in AppraiSys.</p>
 <p><strong>Key Skills</strong>:</p>
 <ul>
 <li class="">Generate valid OOXML programmatically</li>
-<li class="">Work with Syncfusion DocIO and SFDT</li>
-<li class="">Avoid common structural errors</li>
-<li class="">Apply AppraiSys patterns correctly</li>
+<li class="">Work with content controls (SDT) for mail merge</li>
+<li class="">Create complex table structures</li>
+<li class="">Convert between DOCX and SFDT formats</li>
+<li class="">Apply AppraiSys coding patterns correctly</li>
 </ul>
-<p><strong>Start Here</strong>: <a class="" href="/docs/01-fundamentals/document-structure-basics.md">01-document-structure-basics.md</a></p>
 <hr>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-for-senior-developers">🚀 <strong>For Senior Developers</strong><a href="#-for-senior-developers" class="hash-link" aria-label="Direct link to -for-senior-developers" title="Direct link to -for-senior-developers" translate="no">​</a></h3>
-<p><strong>Goal</strong>: Master document assembly, debugging, and architecture</p>
-<p><strong>Estimated Time</strong>: 4-5 weeks (comprehensive)</p>
-<table><thead><tr><th>Phase</th><th>Topics</th><th>Files</th></tr></thead><tbody><tr><td>Review</td><td>All fundamentals and intermediate</td><td>Parts 1-2</td></tr><tr><td>Deep Dive</td><td>Document assembly, OOXML↔SFDT mapping, Syncfusion internals</td><td>Advanced 2, 3, 5</td></tr><tr><td>Architecture</td><td>Performance, AppraiSys patterns, saga architecture</td><td>Advanced 6, 7, Appendix 3</td></tr><tr><td>Mastery</td><td>All reference materials and advanced exercises</td><td>All Reference, All Appendices</td></tr></tbody></table>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="phase-3-advanced-systems-weeks-3-4">Phase 3: Advanced Systems (Weeks 3-4)<a href="#phase-3-advanced-systems-weeks-3-4" class="hash-link" aria-label="Direct link to Phase 3: Advanced Systems (Weeks 3-4)" title="Direct link to Phase 3: Advanced Systems (Weeks 3-4)" translate="no">​</a></h4>
+<p><strong>Topics</strong>: Document assembly, performance, and architecture
+<strong>Files</strong>: All Advanced 1-7</p>
+<p>Deep dive into document merging, OOXML↔SFDT transformation, debugging complex issues, and understanding the saga architecture.</p>
 <p><strong>Key Skills</strong>:</p>
 <ul>
 <li class="">Merge documents without ID conflicts</li>
-<li class="">Debug complex OOXML issues</li>
+<li class="">Master complete OOXML↔SFDT element mapping</li>
+<li class="">Debug complex OOXML issues using diagnostic tools</li>
 <li class="">Optimize memory usage and performance</li>
-<li class="">Understand complete system architecture</li>
-<li class="">Create Syncfusion bug workarounds</li>
+<li class="">Understand AppraiSys saga architecture</li>
+<li class="">Create workarounds for Syncfusion bugs</li>
+<li class="">Handle revisions, fields, and bookmarks</li>
 </ul>
-<p><strong>Start Here</strong>: Review <a class="" href="/docs/01-fundamentals/">Fundamentals</a> then dive into <a class="" href="/docs/03-advanced/ooxml-sfdt-element-mapping.md">Advanced Element Mapping</a></p>
+<hr>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="phase-4-mastery--practice-week-4-5">Phase 4: Mastery &amp; Practice (Week 4-5)<a href="#phase-4-mastery--practice-week-4-5" class="hash-link" aria-label="Direct link to Phase 4: Mastery &amp; Practice (Week 4-5)" title="Direct link to Phase 4: Mastery &amp; Practice (Week 4-5)" translate="no">​</a></h4>
+<p><strong>Topics</strong>: Code examples, exercises, and complete reference
+<strong>Files</strong>: All Code Examples, All Reference, All Appendices</p>
+<p>Apply everything through practical coding exercises and build a complete mental model of the system.</p>
+<p><strong>Key Skills</strong>:</p>
+<ul>
+<li class="">Write production-ready document generation code</li>
+<li class="">Reference element catalogs quickly</li>
+<li class="">Troubleshoot any document corruption issue</li>
+<li class="">Perform unit conversions (twips, EMU, points)</li>
+<li class="">Apply all AppraiSys patterns correctly</li>
+</ul>
+<hr>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="suggested-learning-schedule">Suggested Learning Schedule<a href="#suggested-learning-schedule" class="hash-link" aria-label="Direct link to Suggested Learning Schedule" title="Direct link to Suggested Learning Schedule" translate="no">​</a></h4>
+<table><thead><tr><th>Week</th><th>Focus Area</th><th>Required Reading</th><th>Practice</th></tr></thead><tbody><tr><td>1</td><td>Fundamentals</td><td>Parts 1 (all)</td><td>Basic exercises</td></tr><tr><td>2</td><td>Intermediate</td><td>Parts 2 (all)</td><td>Table creation, SDT</td></tr><tr><td>3</td><td>Advanced I</td><td>Advanced 1-4</td><td>Debugging exercises</td></tr><tr><td>4</td><td>Advanced II</td><td>Advanced 5-7</td><td>Document merging</td></tr><tr><td>5</td><td>Integration</td><td>Code Examples, Reference</td><td>Build complete feature</td></tr></tbody></table>
+<p><strong>Optional Deep Dives</strong>: For specific areas of focus, spend extra time on:</p>
+<ul>
+<li class=""><strong>Document Assembly</strong>: Advanced 2, Code Examples 5</li>
+<li class=""><strong>Performance Optimization</strong>: Advanced 6, Appendix 3</li>
+<li class=""><strong>Syncfusion Internals</strong>: Advanced 5, Appendix 2</li>
+<li class=""><strong>AppraiSys Architecture</strong>: Advanced 7, Appendix 3</li>
+</ul>
+<p><strong>Start Here</strong>: <a class="" href="/docs/Fundamentals/document-structure-basics">document-structure-basics.md</a></p>
 <hr>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-documentation-structure">📖 Documentation Structure<a href="#-documentation-structure" class="hash-link" aria-label="Direct link to 📖 Documentation Structure" title="Direct link to 📖 Documentation Structure" translate="no">​</a></h2>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="part-1-fundamentals-essential-for-everyone">Part 1: Fundamentals (Essential for Everyone)<a href="#part-1-fundamentals-essential-for-everyone" class="hash-link" aria-label="Direct link to Part 1: Fundamentals (Essential for Everyone)" title="Direct link to Part 1: Fundamentals (Essential for Everyone)" translate="no">​</a></h3>
 <p>Core concepts you must know before working with OOXML:</p>
 <ol>
-<li class=""><a class="" href="/docs/01-fundamentals/document-structure-basics.md">Document Structure Basics</a> - DOCX as ZIP, file organization</li>
-<li class=""><a class="" href="/docs/01-fundamentals/relationship-files.md">Relationship Files</a> - How document parts connect</li>
-<li class=""><a class="" href="/docs/01-fundamentals/wordprocessingml-core.md">WordprocessingML Core</a> - Paragraphs, runs, text nodes</li>
-<li class=""><a class="" href="/docs/01-fundamentals/namespaces.md">Namespaces</a> - Understanding w:, r:, wp:, and more</li>
-<li class=""><a class="" href="/docs/01-fundamentals/common-fatal-mistakes.md">Common Fatal Mistakes</a> - ⚠️ <strong>THE BIG THREE errors</strong></li>
-<li class=""><a class="" href="/docs/01-fundamentals/element-hierarchy-rules.md">Element Hierarchy Rules</a> - Valid nesting and structure</li>
-<li class=""><a class="" href="/docs/01-fundamentals/practice-exercises.md">Practice Exercises</a> - Hands-on learning</li>
+<li class=""><a class="" href="/docs/Fundamentals/document-structure-basics">Document Structure Basics</a> - DOCX as ZIP, file organization</li>
+<li class=""><a class="" href="/docs/Fundamentals/relationship-files">Relationship Files</a> - How document parts connect</li>
+<li class=""><a class="" href="/docs/Fundamentals/wordprocessingml-core">WordprocessingML Core</a> - Paragraphs, runs, text nodes</li>
+<li class=""><a class="" href="/docs/Fundamentals/namespaces">Namespaces</a> - Understanding w:, r:, wp:, and more</li>
+<li class=""><a class="" href="/docs/Fundamentals/common-fatal-mistakes">Common Fatal Mistakes</a> - ⚠️ <strong>THE BIG THREE errors</strong></li>
+<li class=""><a class="" href="/docs/Fundamentals/element-hierarchy-rules">Element Hierarchy Rules</a> - Valid nesting and structure</li>
+<li class=""><a class="" href="/docs/Fundamentals/practice-exercises">Practice Exercises</a> - Hands-on learning</li>
 </ol>
 <hr>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="part-2-intermediate-real-world-development">Part 2: Intermediate (Real-World Development)<a href="#part-2-intermediate-real-world-development" class="hash-link" aria-label="Direct link to Part 2: Intermediate (Real-World Development)" title="Direct link to Part 2: Intermediate (Real-World Development)" translate="no">​</a></h3>
 <p>Practical knowledge for building documents:</p>
 <ol>
-<li class=""><a class="" href="/docs/02-intermediate/content-controls-sdt.md">Content Controls (SDT)</a> - Mail merge fields</li>
-<li class=""><a class="" href="/docs/02-intermediate/tables-in-ooxml.md">Tables in OOXML</a> - Structure, merging, AppraiSys patterns</li>
-<li class=""><a class="" href="/docs/02-intermediate/numbering-and-lists.md">Numbering and Lists</a> - Why lists break and how to fix</li>
-<li class=""><a class="" href="/docs/02-intermediate/styles-and-formatting.md">Styles and Formatting</a> - Your system&#x27;s style catalog</li>
-<li class=""><a class="" href="/docs/02-intermediate/syncfusion-sfdt-format.md">Syncfusion SFDT Format</a> - JSON document representation</li>
-<li class=""><a class="" href="/docs/02-intermediate/qa-testing-workflow.md">QA Testing Workflow</a> - Tools and checklists</li>
-<li class=""><a class="" href="/docs/02-intermediate/practice-exercises.md">Practice Exercises</a> - Intermediate challenges</li>
+<li class=""><a class="" href="/docs/Intermediate/content-controls-sdt">Content Controls (SDT)</a> - Mail merge fields</li>
+<li class=""><a class="" href="/docs/Intermediate/tables-in-ooxml">Tables in OOXML</a> - Structure, merging, AppraiSys patterns</li>
+<li class=""><a class="" href="/docs/Intermediate/numbering-and-lists">Numbering and Lists</a> - Why lists break and how to fix</li>
+<li class=""><a class="" href="/docs/Intermediate/styles-in-depth">Styles and Formatting</a> - Your system&#x27;s style catalog</li>
+<li class=""><a class="" href="/docs/Intermediate/syncfusion-sfdt-format">Syncfusion SFDT Format</a> - JSON document representation</li>
+<li class=""><a class="" href="/docs/Intermediate/qa-testing-workflow">QA Testing Workflow</a> - Tools and checklists</li>
 </ol>
 <hr>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="part-3-advanced-expert-level">Part 3: Advanced (Expert Level)<a href="#part-3-advanced-expert-level" class="hash-link" aria-label="Direct link to Part 3: Advanced (Expert Level)" title="Direct link to Part 3: Advanced (Expert Level)" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="part-3-advanced-complete-system-mastery">Part 3: Advanced (Complete System Mastery)<a href="#part-3-advanced-complete-system-mastery" class="hash-link" aria-label="Direct link to Part 3: Advanced (Complete System Mastery)" title="Direct link to Part 3: Advanced (Complete System Mastery)" translate="no">​</a></h3>
 <p>Deep technical knowledge and system architecture:</p>
 <ol>
-<li class=""><a class="" href="/docs/03-advanced/advanced-ooxml-internals.md">Advanced OOXML Internals</a> - Revisions, fields, bookmarks</li>
-<li class=""><a class="" href="/docs/03-advanced/document-assembly.md">Document Assembly</a> - Merging without conflicts</li>
-<li class=""><a class="" href="/docs/03-advanced/ooxml-sfdt-element-mapping.md">OOXML ↔ SFDT Element Mapping</a> - 🔥 <strong>Complete transformation guide</strong></li>
-<li class=""><a class="" href="/docs/03-advanced/diagnostics-debugging.md">Diagnostics &amp; Debugging</a> - Tools and techniques</li>
-<li class=""><a class="" href="/docs/03-advanced/advanced-syncfusion.md">Advanced Syncfusion</a> - SFDT schema, bug workarounds</li>
-<li class=""><a class="" href="/docs/03-advanced/performance-stability.md">Performance &amp; Stability</a> - Memory management</li>
-<li class=""><a class="" href="/docs/03-advanced/appraisal-specific-patterns.md">AppraiSys Specific Patterns</a> - Saga architecture</li>
-<li class=""><a class="" href="/docs/03-advanced/practice-exercises.md">Practice Exercises</a> - Advanced challenges</li>
+<li class=""><a class="" href="/docs/03-Advanced/advanced-ooxml-internals.md">Advanced OOXML Internals</a> - Revisions, fields, bookmarks</li>
+<li class=""><a class="" href="/docs/03-Advanced/document-assembly.md">Document Assembly</a> - Merging without conflicts</li>
+<li class=""><a class="" href="/docs/Advanced/ooxml-sfdt-element-mapping">OOXML ↔ SFDT Element Mapping</a> - 🔥 <strong>Complete transformation guide</strong></li>
+<li class=""><a class="" href="/docs/03-Advanced/diagnostics-debugging.md">Diagnostics &amp; Debugging</a> - Tools and techniques</li>
+<li class=""><a class="" href="/docs/03-Advanced/advanced-syncfusion.md">Advanced Syncfusion</a> - SFDT schema, bug workarounds</li>
+<li class=""><a class="" href="/docs/03-Advanced/performance-stability.md">Performance &amp; Stability</a> - Memory management</li>
+<li class=""><a class="" href="/docs/03-Advanced/appraisal-specific-patterns.md">AppraiSys Specific Patterns</a> - Saga architecture</li>
+<li class=""><a class="" href="/docs/03-Advanced/practice-exercises.md">Practice Exercises</a> - Advanced challenges</li>
 </ol>
 <hr>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="part-4-reference-materials-quick-lookup">Part 4: Reference Materials (Quick Lookup)<a href="#part-4-reference-materials-quick-lookup" class="hash-link" aria-label="Direct link to Part 4: Reference Materials (Quick Lookup)" title="Direct link to Part 4: Reference Materials (Quick Lookup)" translate="no">​</a></h3>
 <p>Comprehensive reference tables and quick guides:</p>
 <ol>
-<li class=""><a class="" href="/docs/04-reference/ooxml-element-reference.md">OOXML Element Reference</a> - Complete element catalog</li>
-<li class=""><a class="" href="/docs/04-reference/property-elements.md">Property Elements</a> - Paragraph, run, table properties</li>
-<li class=""><a class="" href="/docs/04-reference/units-conversion.md">Units Conversion</a> - Twips, EMU, points</li>
-<li class=""><a class="" href="/docs/04-reference/syncfusion-ooxml-mapping.md">Syncfusion-OOXML Mapping</a> - Quick reference table</li>
-<li class=""><a class="" href="/docs/04-reference/error-codes.md">Error Codes</a> - Common validation errors</li>
-<li class=""><a class="" href="/docs/04-reference/system-styles-reference.md">System Styles Reference</a> - DefaultDocument.cs catalog</li>
-<li class=""><a class="" href="/docs/04-reference/debugging-workflows.md">Debugging Workflows</a> - Decision trees</li>
+<li class=""><a class="" href="/docs/04-Reference/ooxml-element-reference.md">OOXML Element Reference</a> - Complete element catalog</li>
+<li class=""><a class="" href="/docs/04-Reference/property-elements.md">Property Elements</a> - Paragraph, run, table properties</li>
+<li class=""><a class="" href="/docs/04-Reference/units-conversion.md">Units Conversion</a> - Twips, EMU, points</li>
+<li class=""><a class="" href="/docs/04-Reference/syncfusion-ooxml-mapping.md">Syncfusion-OOXML Mapping</a> - Quick reference table</li>
+<li class=""><a class="" href="/docs/04-Reference/error-codes.md">Error Codes</a> - Common validation errors</li>
+<li class=""><a class="" href="/docs/04-Reference/system-styles-reference.md">System Styles Reference</a> - DefaultDocument.cs catalog</li>
+<li class=""><a class="" href="/docs/04-Reference/debugging-workflows.md">Debugging Workflows</a> - Decision trees</li>
+<li class=""><a class="" href="/docs/Reference/quick-reference-cheatsheet">Quick Reference Cheatsheet</a> - Essential quick reference</li>
 </ol>
 <hr>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="part-5-code-examples-copy-paste-ready">Part 5: Code Examples (Copy-Paste Ready)<a href="#part-5-code-examples-copy-paste-ready" class="hash-link" aria-label="Direct link to Part 5: Code Examples (Copy-Paste Ready)" title="Direct link to Part 5: Code Examples (Copy-Paste Ready)" translate="no">​</a></h3>
 <p>Working code from the AppraiSys codebase:</p>
 <ol>
-<li class=""><a class="" href="/docs/05-code-examples/basic-operations.md">Basic Operations</a> - Create paragraphs, runs, text</li>
-<li class=""><a class="" href="/docs/05-code-examples/table-creation.md">Table Creation</a> - Build tables with borders</li>
-<li class=""><a class="" href="/docs/05-code-examples/content-controls.md">Content Controls</a> - SDT and mail merge</li>
-<li class=""><a class="" href="/docs/05-code-examples/image-handling.md">Image Handling</a> - Embed and size images</li>
-<li class=""><a class="" href="/docs/05-code-examples/document-merging.md">Document Merging</a> - Safe merge patterns</li>
-<li class=""><a class="" href="/docs/05-code-examples/syncfusion-patterns.md">Syncfusion Patterns</a> - DOCX↔SFDT conversion</li>
+<li class=""><a class="" href="/docs/Code examples/creating-documents">Creating Documents</a> - Create documents from scratch</li>
+<li class=""><a class="" href="/docs/Code examples/table-creation">Table Creation</a> - Build tables with borders</li>
+<li class=""><a class="" href="/docs/05-Code examples/content-controls.md">Content Controls</a> - SDT and mail merge</li>
+<li class=""><a class="" href="/docs/05-Code examples/image-handling.md">Image Handling</a> - Embed and size images</li>
+<li class=""><a class="" href="/docs/05-Code examples/document-merging.md">Document Merging</a> - Safe merge patterns</li>
+<li class=""><a class="" href="/docs/05-Code examples/syncfusion-patterns.md">Syncfusion Patterns</a> - DOCX↔SFDT conversion</li>
 </ol>
 <hr>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="part-6-appendices-deep-reference">Part 6: Appendices (Deep Reference)<a href="#part-6-appendices-deep-reference" class="hash-link" aria-label="Direct link to Part 6: Appendices (Deep Reference)" title="Direct link to Part 6: Appendices (Deep Reference)" translate="no">​</a></h3>
 <p>Complete technical specifications:</p>
 <ol>
-<li class=""><a class="" href="/docs/06-appendices/namespace-reference.md">Namespace Reference</a> - All OOXML namespaces</li>
-<li class=""><a class="" href="/docs/06-appendices/sfdt-json-schema.md">SFDT JSON Schema</a> - Complete schema</li>
-<li class=""><a class="" href="/docs/06-appendices/architecture-diagrams.md">Architecture Diagrams</a> - System pipelines</li>
-<li class=""><a class="" href="/docs/06-appendices/troubleshooting-guides.md">Troubleshooting Guides</a> - Common issues</li>
-<li class=""><a class="" href="/docs/06-appendices/glossary.md">Glossary</a> - All technical terms</li>
+<li class=""><a class="" href="/docs/06-Appendices/namespace-reference.md">Namespace Reference</a> - All OOXML namespaces</li>
+<li class=""><a class="" href="/docs/06-Appendices/sfdt-json-schema.md">SFDT JSON Schema</a> - Complete schema</li>
+<li class=""><a class="" href="/docs/06-Appendices/architecture-diagrams.md">Architecture Diagrams</a> - System pipelines</li>
+<li class=""><a class="" href="/docs/Appendices/troubleshooting-guide">Troubleshooting Guide</a> - Common issues</li>
+<li class=""><a class="" href="/docs/06-Appendices/glossary.md">Glossary</a> - All technical terms</li>
 </ol>
 <hr>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-quick-start-guides">🎯 Quick Start Guides<a href="#-quick-start-guides" class="hash-link" aria-label="Direct link to 🎯 Quick Start Guides" title="Direct link to 🎯 Quick Start Guides" translate="no">​</a></h2>
@@ -146,23 +186,23 @@
 <ol>
 <li class="">Open document in <a href="https://github.com/OfficeDev/Open-XML-SDK/releases" target="_blank" rel="noopener noreferrer" class="">OpenXML SDK Productivity Tool</a></li>
 <li class="">Run validator to see errors</li>
-<li class="">Check <a class="" href="/docs/01-fundamentals/common-fatal-mistakes.md">Common Fatal Mistakes</a></li>
-<li class="">Review <a class="" href="/docs/04-reference/error-codes.md">Error Codes</a></li>
-<li class="">Follow <a class="" href="/docs/06-appendices/troubleshooting-guides.md">Troubleshooting Guide</a></li>
+<li class="">Check <a class="" href="/docs/Fundamentals/common-fatal-mistakes">Common Fatal Mistakes</a></li>
+<li class="">Review <a class="" href="/docs/04-Reference/error-codes.md">Error Codes</a></li>
+<li class="">Follow <a class="" href="/docs/Appendices/troubleshooting-guide">Troubleshooting Guide</a></li>
 </ol>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="images-arent-showing-up">&quot;Images aren&#x27;t showing up!&quot;<a href="#images-arent-showing-up" class="hash-link" aria-label="Direct link to &quot;Images aren&#x27;t showing up!&quot;" title="Direct link to &quot;Images aren&#x27;t showing up!&quot;" translate="no">​</a></h3>
-<p>→ <a class="" href="/docs/06-appendices/troubleshooting-guides.md#images-missing">Troubleshooting: Missing Images</a></p>
+<p>→ <a class="" href="/docs/Appendices/troubleshooting-guide#images-missing">Troubleshooting: Missing Images</a></p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="word-shows-repair-dialog">&quot;Word shows &#x27;repair&#x27; dialog!&quot;<a href="#word-shows-repair-dialog" class="hash-link" aria-label="Direct link to &quot;Word shows &#x27;repair&#x27; dialog!&quot;" title="Direct link to &quot;Word shows &#x27;repair&#x27; dialog!&quot;" translate="no">​</a></h3>
-<p>→ <a class="" href="/docs/01-fundamentals/common-fatal-mistakes.md">Common Fatal Mistakes</a> + <a class="" href="/docs/04-reference/debugging-workflows.md">Debugging Workflows</a></p>
+<p>→ <a class="" href="/docs/Fundamentals/common-fatal-mistakes">Common Fatal Mistakes</a> + <a class="" href="/docs/04-Reference/debugging-workflows.md">Debugging Workflows</a></p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="how-do-i-create-a-table">&quot;How do I create a table?&quot;<a href="#how-do-i-create-a-table" class="hash-link" aria-label="Direct link to &quot;How do I create a table?&quot;" title="Direct link to &quot;How do I create a table?&quot;" translate="no">​</a></h3>
-<p>→ <a class="" href="/docs/02-intermediate/tables-in-ooxml.md">Tables in OOXML</a> + <a class="" href="/docs/05-code-examples/table-creation.md">Table Creation Code</a></p>
+<p>→ <a class="" href="/docs/Intermediate/tables-in-ooxml">Tables in OOXML</a> + [Table Creation Code](05-Code examples/02-table-creation.md)</p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-the-difference-between-ooxml-and-sfdt">&quot;What&#x27;s the difference between OOXML and SFDT?&quot;<a href="#whats-the-difference-between-ooxml-and-sfdt" class="hash-link" aria-label="Direct link to &quot;What&#x27;s the difference between OOXML and SFDT?&quot;" title="Direct link to &quot;What&#x27;s the difference between OOXML and SFDT?&quot;" translate="no">​</a></h3>
-<p>→ <a class="" href="/docs/03-advanced/ooxml-sfdt-element-mapping.md">OOXML ↔ SFDT Element Mapping</a></p>
+<p>→ <a class="" href="/docs/Advanced/ooxml-sfdt-element-mapping">OOXML ↔ SFDT Element Mapping</a></p>
 <hr>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-essential-tools">🔧 Essential Tools<a href="#-essential-tools" class="hash-link" aria-label="Direct link to 🔧 Essential Tools" title="Direct link to 🔧 Essential Tools" translate="no">​</a></h2>
 <p>Before you start, install these tools:</p>
-<table><thead><tr><th>Tool</th><th>Purpose</th><th>Required For</th></tr></thead><tbody><tr><td><strong>Open XML SDK Productivity Tool</strong></td><td>Visual OOXML inspector</td><td>QA, Backend, Senior</td></tr><tr><td><strong>7-Zip or WinRAR</strong></td><td>Explore DOCX as ZIP</td><td>Everyone</td></tr><tr><td><strong>Microsoft Word</strong> (Developer Tab enabled)</td><td>Test documents, inspect SDT</td><td>Everyone</td></tr><tr><td><strong>Visual Studio / VS Code</strong></td><td>Write code</td><td>Backend, Senior</td></tr><tr><td><strong>Oxygen XML Editor</strong> (optional)</td><td>Advanced XML editing</td><td>Senior</td></tr></tbody></table>
-<p>Download links in <a class="" href="/docs/02-intermediate/qa-testing-workflow.md#essential-tools">QA Testing Workflow</a>.</p>
+<table><thead><tr><th>Tool</th><th>Purpose</th><th>Required For</th></tr></thead><tbody><tr><td><strong>Open XML SDK Productivity Tool</strong></td><td>Visual OOXML inspector</td><td>QA, Developers</td></tr><tr><td><strong>7-Zip or WinRAR</strong></td><td>Explore DOCX as ZIP</td><td>Everyone</td></tr><tr><td><strong>Microsoft Word</strong> (Developer Tab enabled)</td><td>Test documents, inspect SDT</td><td>Everyone</td></tr><tr><td><strong>Visual Studio / VS Code</strong></td><td>Write code</td><td>Developers</td></tr><tr><td><strong>Oxygen XML Editor</strong> (optional)</td><td>Advanced XML editing</td><td>Developers (advanced debugging)</td></tr></tbody></table>
+<p>Download links in <a class="" href="/docs/Intermediate/qa-testing-workflow#essential-tools">QA Testing Workflow</a>.</p>
 <hr>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-the-three-fatal-mistakes">⚠️ The Three Fatal Mistakes<a href="#️-the-three-fatal-mistakes" class="hash-link" aria-label="Direct link to ⚠️ The Three Fatal Mistakes" title="Direct link to ⚠️ The Three Fatal Mistakes" translate="no">​</a></h2>
 <p>Before reading anything else, memorize these three errors that corrupt documents:</p>
@@ -172,19 +212,19 @@
 <div class="language-xml codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-xml codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token comment" style="color:#999988;font-style:italic">&lt;!-- WRONG --&gt;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token tag punctuation" style="color:#393A34">&lt;</span><span class="token tag namespace" style="color:#00009f;opacity:0.7">w:</span><span class="token tag" style="color:#00009f">r</span><span class="token tag punctuation" style="color:#393A34">&gt;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token tag punctuation" style="color:#393A34">&lt;</span><span class="token tag namespace" style="color:#00009f;opacity:0.7">w:</span><span class="token tag" style="color:#00009f">tbl</span><span class="token tag punctuation" style="color:#393A34">&gt;</span><span class="token plain">...</span><span class="token tag punctuation" style="color:#393A34">&lt;/</span><span class="token tag namespace" style="color:#00009f;opacity:0.7">w:</span><span class="token tag" style="color:#00009f">tbl</span><span class="token tag punctuation" style="color:#393A34">&gt;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token tag punctuation" style="color:#393A34">&lt;/</span><span class="token tag namespace" style="color:#00009f;opacity:0.7">w:</span><span class="token tag" style="color:#00009f">r</span><span class="token tag punctuation" style="color:#393A34">&gt;</span><br></span></code></pre></div></div>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mistake-3-text-without-run-or-paragraph">❌ Mistake #3: Text without Run or Paragraph<a href="#-mistake-3-text-without-run-or-paragraph" class="hash-link" aria-label="Direct link to ❌ Mistake #3: Text without Run or Paragraph" title="Direct link to ❌ Mistake #3: Text without Run or Paragraph" translate="no">​</a></h3>
 <div class="language-xml codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-xml codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token comment" style="color:#999988;font-style:italic">&lt;!-- WRONG --&gt;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token tag punctuation" style="color:#393A34">&lt;</span><span class="token tag namespace" style="color:#00009f;opacity:0.7">w:</span><span class="token tag" style="color:#00009f">body</span><span class="token tag punctuation" style="color:#393A34">&gt;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token tag punctuation" style="color:#393A34">&lt;</span><span class="token tag namespace" style="color:#00009f;opacity:0.7">w:</span><span class="token tag" style="color:#00009f">t</span><span class="token tag punctuation" style="color:#393A34">&gt;</span><span class="token plain">Text</span><span class="token tag punctuation" style="color:#393A34">&lt;/</span><span class="token tag namespace" style="color:#00009f;opacity:0.7">w:</span><span class="token tag" style="color:#00009f">t</span><span class="token tag punctuation" style="color:#393A34">&gt;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token tag punctuation" style="color:#393A34">&lt;/</span><span class="token tag namespace" style="color:#00009f;opacity:0.7">w:</span><span class="token tag" style="color:#00009f">body</span><span class="token tag punctuation" style="color:#393A34">&gt;</span><br></span></code></pre></div></div>
-<p><strong>Full explanation</strong>: <a class="" href="/docs/01-fundamentals/common-fatal-mistakes.md">Common Fatal Mistakes</a></p>
+<p><strong>Full explanation</strong>: <a class="" href="/docs/Fundamentals/common-fatal-mistakes">Common Fatal Mistakes</a></p>
 <hr>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-document-generation-overview">📊 Document Generation Overview<a href="#-document-generation-overview" class="hash-link" aria-label="Direct link to 📊 Document Generation Overview" title="Direct link to 📊 Document Generation Overview" translate="no">​</a></h2>
 <p>High-level view of how AppraiSys generates appraisal reports:</p>
 <!-- -->
-<p><strong>Detailed explanation</strong>: <a class="" href="/docs/03-advanced/appraisal-specific-patterns.md">AppraiSys Specific Patterns</a></p>
+<p><strong>Detailed explanation</strong>: <a class="" href="/docs/03-Advanced/appraisal-specific-patterns.md">AppraiSys Specific Patterns</a></p>
 <hr>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-key-concepts-at-a-glance">💡 Key Concepts at a Glance<a href="#-key-concepts-at-a-glance" class="hash-link" aria-label="Direct link to 💡 Key Concepts at a Glance" title="Direct link to 💡 Key Concepts at a Glance" translate="no">​</a></h2>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="document-hierarchy">Document Hierarchy<a href="#document-hierarchy" class="hash-link" aria-label="Direct link to Document Hierarchy" title="Direct link to Document Hierarchy" translate="no">​</a></h3>
 <div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">document</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  └─ body</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      ├─ p (paragraph)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      │   └─ r (run)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      │       └─ t (text)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      ├─ tbl (table)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      │   └─ tr (row)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      │       └─ tc (cell)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      │           └─ p (required!)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      └─ sdt (content control)</span><br></span></code></pre></div></div>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="ooxml--sfdt-mapping">OOXML → SFDT Mapping<a href="#ooxml--sfdt-mapping" class="hash-link" aria-label="Direct link to OOXML → SFDT Mapping" title="Direct link to OOXML → SFDT Mapping" translate="no">​</a></h3>
 <table><thead><tr><th>OOXML</th><th>SFDT</th><th>Purpose</th></tr></thead><tbody><tr><td><code>w:p</code></td><td><code>block</code> (paragraph)</td><td>Paragraph</td></tr><tr><td><code>w:r</code> + <code>w:t</code></td><td><code>inline</code> (text)</td><td>Text run</td></tr><tr><td><code>w:tbl</code></td><td><code>block</code> (table)</td><td>Table</td></tr><tr><td><code>w:drawing</code></td><td><code>inline</code> (image)</td><td>Image</td></tr><tr><td><code>w:pPr</code></td><td><code>paragraphFormat</code></td><td>Paragraph formatting</td></tr><tr><td><code>w:rPr</code></td><td><code>characterFormat</code></td><td>Character formatting</td></tr></tbody></table>
-<p><strong>Complete mapping</strong>: <a class="" href="/docs/03-advanced/ooxml-sfdt-element-mapping.md">OOXML ↔ SFDT Element Mapping</a></p>
+<p><strong>Complete mapping</strong>: <a class="" href="/docs/Advanced/ooxml-sfdt-element-mapping">OOXML ↔ SFDT Element Mapping</a></p>
 <hr>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-getting-help">📞 Getting Help<a href="#-getting-help" class="hash-link" aria-label="Direct link to 📞 Getting Help" title="Direct link to 📞 Getting Help" translate="no">​</a></h2>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="documentation-issues">Documentation Issues<a href="#documentation-issues" class="hash-link" aria-label="Direct link to Documentation Issues" title="Direct link to Documentation Issues" translate="no">​</a></h3>
@@ -192,7 +232,7 @@
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="code-issues">Code Issues<a href="#code-issues" class="hash-link" aria-label="Direct link to Code Issues" title="Direct link to Code Issues" translate="no">​</a></h3>
 <p>For AppraiSys codebase questions, refer to your team&#x27;s standard channels.</p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="syncfusion-issues">Syncfusion Issues<a href="#syncfusion-issues" class="hash-link" aria-label="Direct link to Syncfusion Issues" title="Direct link to Syncfusion Issues" translate="no">​</a></h3>
-<p>Check <a class="" href="/docs/03-advanced/advanced-syncfusion.md">Advanced Syncfusion</a> for known bugs and workarounds.</p>
+<p>Check <a class="" href="/docs/03-Advanced/advanced-syncfusion.md">Advanced Syncfusion</a> for known bugs and workarounds.</p>
 <hr>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-appraisys-system-context">🗂️ AppraiSys System Context<a href="#️-appraisys-system-context" class="hash-link" aria-label="Direct link to 🗂️ AppraiSys System Context" title="Direct link to 🗂️ AppraiSys System Context" translate="no">​</a></h2>
 <p>This documentation focuses on document generation within the AppraiSys real estate appraisal system. Key components referenced:</p>
@@ -203,7 +243,7 @@
 <li class=""><strong>MergeReportSectionsConsumer</strong> - Multi-section assembly</li>
 <li class=""><strong>ReportGenerationSaga</strong> - Orchestration architecture</li>
 </ul>
-<p>See <a class="" href="/docs/03-advanced/appraisal-specific-patterns.md">AppraiSys Specific Patterns</a> for complete system overview.</p>
+<p>See <a class="" href="/docs/03-Advanced/appraisal-specific-patterns.md">AppraiSys Specific Patterns</a> for complete system overview.</p>
 <hr>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-how-to-use-this-documentation">📝 How to Use This Documentation<a href="#-how-to-use-this-documentation" class="hash-link" aria-label="Direct link to 📝 How to Use This Documentation" title="Direct link to 📝 How to Use This Documentation" translate="no">​</a></h2>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="first-time-reading">First Time Reading<a href="#first-time-reading" class="hash-link" aria-label="Direct link to First Time Reading" title="Direct link to First Time Reading" translate="no">​</a></h3>
@@ -226,26 +266,18 @@
 <li class="">Use as training material for new developers</li>
 </ul>
 <hr>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-certification-paths-future">🎓 Certification Paths (Future)<a href="#-certification-paths-future" class="hash-link" aria-label="Direct link to 🎓 Certification Paths (Future)" title="Direct link to 🎓 Certification Paths (Future)" translate="no">​</a></h2>
-<p><em>Note: Assessment system not yet implemented</em></p>
-<ul>
-<li class="">✓ OOXML Fundamentals (QA Level)</li>
-<li class="">✓ Document Generation Developer</li>
-<li class="">✓ Senior Document Architecture Expert</li>
-</ul>
-<hr>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-last-updated">📅 Last Updated<a href="#-last-updated" class="hash-link" aria-label="Direct link to 📅 Last Updated" title="Direct link to 📅 Last Updated" translate="no">​</a></h2>
 <p>This documentation is maintained by the AppraiSys development team.</p>
-<p><strong>Version</strong>: 1.0<br>
-<strong>Last Update</strong>: November 2025</p>
+<p><strong>Version</strong>: 1.1<br>
+<strong>Last Update</strong>: November 2025<br>
+<strong>Changelog</strong>: Merged backend and senior developer paths into unified developer path</p>
 <hr>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-ready-to-start">🚀 Ready to Start?<a href="#-ready-to-start" class="hash-link" aria-label="Direct link to 🚀 Ready to Start?" title="Direct link to 🚀 Ready to Start?" translate="no">​</a></h2>
 <p>Pick your path and dive in:</p>
 <ul>
-<li class=""><strong>QA Team</strong>: <a class="" href="/docs/01-fundamentals/document-structure-basics.md">Document Structure Basics</a></li>
-<li class=""><strong>Backend Developers</strong>: <a class="" href="/docs/01-fundamentals/document-structure-basics.md">Document Structure Basics</a></li>
-<li class=""><strong>Senior Developers</strong>: <a class="" href="/docs/03-advanced/ooxml-sfdt-element-mapping.md">Advanced Element Mapping</a></li>
+<li class=""><strong>QA Team</strong>: <a class="" href="/docs/Fundamentals/document-structure-basics">Document Structure Basics</a></li>
+<li class=""><strong>Developers</strong>: <a class="" href="/docs/Fundamentals/document-structure-basics">Document Structure Basics</a></li>
 </ul>
-<p><strong>Remember</strong>: Understanding the fundamentals prevents 90% of document corruption issues!</p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col noPrint_WFHX"><a href="https://gitlab.devcom.com/appraisys/Atlas/docs/README.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/PROGRESS"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Documentation Progress Report</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#-documentation-overview" class="table-of-contents__link toc-highlight">📚 Documentation Overview</a><ul><li><a href="#what-youll-learn" class="table-of-contents__link toc-highlight">What You&#39;ll Learn</a></li></ul></li><li><a href="#️-learning-paths" class="table-of-contents__link toc-highlight">🗺️ Learning Paths</a><ul><li><a href="#-for-qa-team-members-non-technical-focus" class="table-of-contents__link toc-highlight">🔍 <strong>For QA Team Members</strong> (Non-Technical Focus)</a></li><li><a href="#-for-backend-developers" class="table-of-contents__link toc-highlight">💻 <strong>For Backend Developers</strong></a></li><li><a href="#-for-senior-developers" class="table-of-contents__link toc-highlight">🚀 <strong>For Senior Developers</strong></a></li></ul></li><li><a href="#-documentation-structure" class="table-of-contents__link toc-highlight">📖 Documentation Structure</a><ul><li><a href="#part-1-fundamentals-essential-for-everyone" class="table-of-contents__link toc-highlight">Part 1: Fundamentals (Essential for Everyone)</a></li><li><a href="#part-2-intermediate-real-world-development" class="table-of-contents__link toc-highlight">Part 2: Intermediate (Real-World Development)</a></li><li><a href="#part-3-advanced-expert-level" class="table-of-contents__link toc-highlight">Part 3: Advanced (Expert Level)</a></li><li><a href="#part-4-reference-materials-quick-lookup" class="table-of-contents__link toc-highlight">Part 4: Reference Materials (Quick Lookup)</a></li><li><a href="#part-5-code-examples-copy-paste-ready" class="table-of-contents__link toc-highlight">Part 5: Code Examples (Copy-Paste Ready)</a></li><li><a href="#part-6-appendices-deep-reference" class="table-of-contents__link toc-highlight">Part 6: Appendices (Deep Reference)</a></li></ul></li><li><a href="#-quick-start-guides" class="table-of-contents__link toc-highlight">🎯 Quick Start Guides</a><ul><li><a href="#i-need-to-fix-a-broken-document-now" class="table-of-contents__link toc-highlight">&quot;I need to fix a broken document NOW!&quot;</a></li><li><a href="#images-arent-showing-up" class="table-of-contents__link toc-highlight">&quot;Images aren&#39;t showing up!&quot;</a></li><li><a href="#word-shows-repair-dialog" class="table-of-contents__link toc-highlight">&quot;Word shows &#39;repair&#39; dialog!&quot;</a></li><li><a href="#how-do-i-create-a-table" class="table-of-contents__link toc-highlight">&quot;How do I create a table?&quot;</a></li><li><a href="#whats-the-difference-between-ooxml-and-sfdt" class="table-of-contents__link toc-highlight">&quot;What&#39;s the difference between OOXML and SFDT?&quot;</a></li></ul></li><li><a href="#-essential-tools" class="table-of-contents__link toc-highlight">🔧 Essential Tools</a></li><li><a href="#️-the-three-fatal-mistakes" class="table-of-contents__link toc-highlight">⚠️ The Three Fatal Mistakes</a><ul><li><a href="#-mistake-1-sdt-inside-run" class="table-of-contents__link toc-highlight">❌ Mistake #1: SDT inside Run</a></li><li><a href="#-mistake-2-table-inside-run" class="table-of-contents__link toc-highlight">❌ Mistake #2: Table inside Run</a></li><li><a href="#-mistake-3-text-without-run-or-paragraph" class="table-of-contents__link toc-highlight">❌ Mistake #3: Text without Run or Paragraph</a></li></ul></li><li><a href="#-document-generation-overview" class="table-of-contents__link toc-highlight">📊 Document Generation Overview</a></li><li><a href="#-key-concepts-at-a-glance" class="table-of-contents__link toc-highlight">💡 Key Concepts at a Glance</a><ul><li><a href="#document-hierarchy" class="table-of-contents__link toc-highlight">Document Hierarchy</a></li><li><a href="#ooxml--sfdt-mapping" class="table-of-contents__link toc-highlight">OOXML → SFDT Mapping</a></li></ul></li><li><a href="#-getting-help" class="table-of-contents__link toc-highlight">📞 Getting Help</a><ul><li><a href="#documentation-issues" class="table-of-contents__link toc-highlight">Documentation Issues</a></li><li><a href="#code-issues" class="table-of-contents__link toc-highlight">Code Issues</a></li><li><a href="#syncfusion-issues" class="table-of-contents__link toc-highlight">Syncfusion Issues</a></li></ul></li><li><a href="#️-appraisys-system-context" class="table-of-contents__link toc-highlight">🗂️ AppraiSys System Context</a></li><li><a href="#-how-to-use-this-documentation" class="table-of-contents__link toc-highlight">📝 How to Use This Documentation</a><ul><li><a href="#first-time-reading" class="table-of-contents__link toc-highlight">First Time Reading</a></li><li><a href="#as-reference" class="table-of-contents__link toc-highlight">As Reference</a></li><li><a href="#for-code-reviews" class="table-of-contents__link toc-highlight">For Code Reviews</a></li></ul></li><li><a href="#-certification-paths-future" class="table-of-contents__link toc-highlight">🎓 Certification Paths (Future)</a></li><li><a href="#-last-updated" class="table-of-contents__link toc-highlight">📅 Last Updated</a></li><li><a href="#-ready-to-start" class="table-of-contents__link toc-highlight">🚀 Ready to Start?</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/docs">Tutorial</a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 ValuationPro/DevCom. Built with Docusaurus.</div></div></div></footer></div>
+<p><strong>Remember</strong>: Understanding the fundamentals prevents 90% of document corruption issues!</p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col noPrint_WFHX"><a href="https://gitlab.devcom.com/appraisys/Atlas/docs/README.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/PROGRESS"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Documentation Progress Report</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#-documentation-overview" class="table-of-contents__link toc-highlight">📚 Documentation Overview</a><ul><li><a href="#what-youll-learn" class="table-of-contents__link toc-highlight">What You&#39;ll Learn</a></li></ul></li><li><a href="#️-learning-paths" class="table-of-contents__link toc-highlight">🗺️ Learning Paths</a><ul><li><a href="#-for-qa-team-members-non-technical-focus" class="table-of-contents__link toc-highlight">🔍 <strong>For QA Team Members</strong> (Non-Technical Focus)</a></li><li><a href="#-for-developers-all-levels" class="table-of-contents__link toc-highlight">💻 <strong>For Developers</strong> (All Levels)</a></li></ul></li><li><a href="#-documentation-structure" class="table-of-contents__link toc-highlight">📖 Documentation Structure</a><ul><li><a href="#part-1-fundamentals-essential-for-everyone" class="table-of-contents__link toc-highlight">Part 1: Fundamentals (Essential for Everyone)</a></li><li><a href="#part-2-intermediate-real-world-development" class="table-of-contents__link toc-highlight">Part 2: Intermediate (Real-World Development)</a></li><li><a href="#part-3-advanced-complete-system-mastery" class="table-of-contents__link toc-highlight">Part 3: Advanced (Complete System Mastery)</a></li><li><a href="#part-4-reference-materials-quick-lookup" class="table-of-contents__link toc-highlight">Part 4: Reference Materials (Quick Lookup)</a></li><li><a href="#part-5-code-examples-copy-paste-ready" class="table-of-contents__link toc-highlight">Part 5: Code Examples (Copy-Paste Ready)</a></li><li><a href="#part-6-appendices-deep-reference" class="table-of-contents__link toc-highlight">Part 6: Appendices (Deep Reference)</a></li></ul></li><li><a href="#-quick-start-guides" class="table-of-contents__link toc-highlight">🎯 Quick Start Guides</a><ul><li><a href="#i-need-to-fix-a-broken-document-now" class="table-of-contents__link toc-highlight">&quot;I need to fix a broken document NOW!&quot;</a></li><li><a href="#images-arent-showing-up" class="table-of-contents__link toc-highlight">&quot;Images aren&#39;t showing up!&quot;</a></li><li><a href="#word-shows-repair-dialog" class="table-of-contents__link toc-highlight">&quot;Word shows &#39;repair&#39; dialog!&quot;</a></li><li><a href="#how-do-i-create-a-table" class="table-of-contents__link toc-highlight">&quot;How do I create a table?&quot;</a></li><li><a href="#whats-the-difference-between-ooxml-and-sfdt" class="table-of-contents__link toc-highlight">&quot;What&#39;s the difference between OOXML and SFDT?&quot;</a></li></ul></li><li><a href="#-essential-tools" class="table-of-contents__link toc-highlight">🔧 Essential Tools</a></li><li><a href="#️-the-three-fatal-mistakes" class="table-of-contents__link toc-highlight">⚠️ The Three Fatal Mistakes</a><ul><li><a href="#-mistake-1-sdt-inside-run" class="table-of-contents__link toc-highlight">❌ Mistake #1: SDT inside Run</a></li><li><a href="#-mistake-2-table-inside-run" class="table-of-contents__link toc-highlight">❌ Mistake #2: Table inside Run</a></li><li><a href="#-mistake-3-text-without-run-or-paragraph" class="table-of-contents__link toc-highlight">❌ Mistake #3: Text without Run or Paragraph</a></li></ul></li><li><a href="#-document-generation-overview" class="table-of-contents__link toc-highlight">📊 Document Generation Overview</a></li><li><a href="#-key-concepts-at-a-glance" class="table-of-contents__link toc-highlight">💡 Key Concepts at a Glance</a><ul><li><a href="#document-hierarchy" class="table-of-contents__link toc-highlight">Document Hierarchy</a></li><li><a href="#ooxml--sfdt-mapping" class="table-of-contents__link toc-highlight">OOXML → SFDT Mapping</a></li></ul></li><li><a href="#-getting-help" class="table-of-contents__link toc-highlight">📞 Getting Help</a><ul><li><a href="#documentation-issues" class="table-of-contents__link toc-highlight">Documentation Issues</a></li><li><a href="#code-issues" class="table-of-contents__link toc-highlight">Code Issues</a></li><li><a href="#syncfusion-issues" class="table-of-contents__link toc-highlight">Syncfusion Issues</a></li></ul></li><li><a href="#️-appraisys-system-context" class="table-of-contents__link toc-highlight">🗂️ AppraiSys System Context</a></li><li><a href="#-how-to-use-this-documentation" class="table-of-contents__link toc-highlight">📝 How to Use This Documentation</a><ul><li><a href="#first-time-reading" class="table-of-contents__link toc-highlight">First Time Reading</a></li><li><a href="#as-reference" class="table-of-contents__link toc-highlight">As Reference</a></li><li><a href="#for-code-reviews" class="table-of-contents__link toc-highlight">For Code Reviews</a></li></ul></li><li><a href="#-last-updated" class="table-of-contents__link toc-highlight">📅 Last Updated</a></li><li><a href="#-ready-to-start" class="table-of-contents__link toc-highlight">🚀 Ready to Start?</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/docs">Tutorial</a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 ValuationPro/DevCom. Built with Docusaurus.</div></div></div></footer></div>
 </body>
 </html>
